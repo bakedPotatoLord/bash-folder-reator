@@ -1,21 +1,26 @@
 
 cd "./"
 
-dir
-
+#remove existing dirs
 rm -r i
 
-dir
 
-mkdir i
-dir
-cd i
+x=1
 
-mkdir i
-dir
-cd i
+echo "how deep should the folders be"
+read depth
 
-mkdir i
-dir
-cd i
+
+while [ $x -le $depth ]
+do
+	
+  echo $x
+	mkdir i
+	cd i
+
+	x=$(( $x + 1 ))
+done
+
+
+echo "completed"
 
