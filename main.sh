@@ -13,8 +13,11 @@ read depth
 
 while [ $x -le $depth ]
 do
-	clear
-  echo $x
+	#clear
+	echo $((x))
+  echo  $(( (x) / (depth) ))
+
+
 	mkdir i
 	cd i
 
