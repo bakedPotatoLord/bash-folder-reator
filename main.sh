@@ -13,7 +13,7 @@ read depth
 
 while [ $x -le $depth ]
 do
-	
+	clear
   echo $x
 	mkdir i
 	cd i
