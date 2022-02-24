@@ -1,5 +1,5 @@
 
-cd "$(dirname "$0")"
+cd "./"
 
 dir
 
@@ -8,11 +8,14 @@ rm -r i
 dir
 
 mkdir i
-cd i
-
 dir
+cd i
 
 mkdir i
+dir
 cd i
 
+mkdir i
 dir
+cd i
+
