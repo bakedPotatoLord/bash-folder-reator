@@ -15,7 +15,7 @@ while [ $x -le $depth ]
 do
 	#clear
 	echo $((x))
-  echo  $(( (x) / (depth) ))
+
 
 
 	mkdir i
